@@ -1,0 +1,11 @@
+# Exported from Render on 2024-10-06T02:03:23Z
+services:
+- type: web
+  name: BlooketFlooder
+  runtime: node
+  repo: https://github.com/BlooketFlooder0/BlooketFlooder
+  plan: free
+  region: oregon
+  buildCommand: 'yarn add express cors axios '
+  startCommand: node src/server.js
+version: "1"
